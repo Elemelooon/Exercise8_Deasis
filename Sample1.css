@@ -1,0 +1,136 @@
+
+body {
+    margin: 0;
+}
+#header {
+    width: 100%;
+    background-image: url(img/joanne-tran-celestia.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center; 
+}
+#header h1{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    /* font-family: 'Sacramento', cursive; */
+    font-size: 70px;
+    letter-spacing: 20px;
+    margin: 30px;
+    transition: 0.5s;
+    font-weight: 200;
+    text-shadow: 3px 3px rgb(12, 38, 75);
+
+}
+#header button {
+    background: none;
+    border: solid white 2px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    cursor: pointer;
+}
+#header button:hover {
+    background: white;
+    color: rgb(17, 139, 209);
+    transition: 0.5s;
+    font-weight: 300;
+}
+#header h1:hover {
+    letter-spacing: 30px;
+}
+#venti {
+    
+    width: 1080px;
+    margin: auto;
+    padding-top: 20px;
+
+}
+/* add , if you want to add another tag */
+#venti h1 {
+    font-family: 'Sacramento', cursive;
+    margin: 0;
+
+    text-shadow: 2px 2px white;
+    /* font-weight: 400; */
+    letter-spacing: 5px;
+    font-size: 45px;
+
+}
+#venti-container {
+    background-image: url(img/divalin.webp);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.ventipic {
+    width: 50%;
+    text-align: right;
+    float: left;
+    
+}
+.ventides {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+.row {
+    display: inline-block;
+    padding-top: 20px;
+
+}
+#venti p {
+    
+    font-family: 'Alice', serif;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+#venti button {
+    background: none;
+    border: solid rgb(15, 162, 199) 2px;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    cursor: pointer;
+}
+#venti button:hover {
+    background: rgb(15, 162, 199);
+    color: white;
+    transition: 0.5s;
+    font-weight: 300;
+}
+
+.des1 {
+    padding: 20px;
+}
+.idk {
+    width: 25%;
+    float: left;
+}
+.idkcontent {
+   margin: 0 15px 10px 15px;
+   padding: 10px;
+   
+}
+.idkcontent:hover {
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 12px;
+    transition: 1s;
+
+}
+.ventiskill img {
+    padding: 0 20px 0 20px;
+}
+.idkcontent h1  {
+    color: black !important; 
+    font-family: 'Alice', serif !important;
+    font-size: 25px !important;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 12px;
+}
+.scrollbutton {
+    transition: 1s;
+}
